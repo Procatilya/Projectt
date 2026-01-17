@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Орендуй Мрію</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1><img class="logo" src="LOgo.png" alt="Logo"> Орендуй Мрію</h1>
+    <nav>
+    </nav>
+</header>
+
+<div class="discount-banner">
+    <p>🔥 СУПЕР ЗНИЖКИ! 🔥 Скандинавський будинок (-30%) | Санторіні вілла (-25%) | США вілла (-20%) | Швейцарія шале (-15%) 🔥</p>
+</div>
+
+<div id="gallery" class="gallery">
+    <div class="item">
+        <img src="https://dom-stroy.kiev.ua/wp-content/uploads/2023/04/1651045062_25-vsegda-pomnim-com-p-krasivii-dom-u-morya-foto-25-1024x683.jpg">
+        <button class="desc-btn" data-id="house1" data-img="https://dom-stroy.kiev.ua/wp-content/uploads/2023/04/1651045062_25-vsegda-pomnim-com-p-krasivii-dom-u-morya-foto-25-1024x683.jpg" data-country="Україна" data-flag="🇺🇦" data-desc="Затишна вілла на березі Чорного моря" data-price="4800" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh3SP8OzpQ2NMKsyN0Y90pSdtqeQ1ERLE6Ug&s">
+        <button class="desc-btn" data-id="house2" data-img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh3SP8OzpQ2NMKsyN0Y90pSdtqeQ1ERLE6Ug&s" data-country="Франція" data-flag="🇫🇷" data-desc="Сучасні апартаменти в самому центрі Парижа" data-price="2475" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://st.focusedcollection.com/16485780/i/650/focused_199370386-stock-photo-sunny-modern-luxury-home-showcase.jpg">
+        <button class="desc-btn" data-id="house3" data-img="https://st.focusedcollection.com/16485780/i/650/focused_199370386-stock-photo-sunny-modern-luxury-home-showcase.jpg" data-country="Італія" data-flag="🇮🇹" data-desc="Розкішна вілла з видом на альпійські озера" data-price="5273" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1186309617008624935/original/36966118-7cc3-4da2-8a33-d5f60f0c7d0f.jpeg">
+        <button class="desc-btn" data-id="house4" data-img="https://a0.muscache.com/im/pictures/hosting/Hosting-1186309617008624935/original/36966118-7cc3-4da2-8a33-d5f60f0c7d0f.jpeg" data-country="Фінляндія" data-flag="🇫🇮" data-desc="Затишний дерев'яний котедж для спостереження за сяйвом" data-price="699" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item item-discount">
+        <img src="https://www.pufikhomes.com/wp-content/uploads/2017/12/dom-posredi-zasnezhennyh-vershyn-pufikhomes-6.jpg">
+        <div class="discount-badge">-30%</div>
+        <div class="discount-price">
+            <span class="original-price">1284$</span>
+            <span class="new-price">899$ 🔥</span>
+        </div>
+        <button class="desc-btn" data-id="house5" data-img="https://www.pufikhomes.com/wp-content/uploads/2017/12/dom-posredi-zasnezhennyh-vershyn-pufikhomes-6.jpg" data-country="Швеція" data-flag="🇸🇪" data-desc="Скандинавський будинок серед засніжених вершин" data-price="899" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSmMeb57DfvjqKypoVaU5xvzPKSHMLsQEmNw&s">
+        <button class="desc-btn" data-id="house6" data-img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSmMeb57DfvjqKypoVaU5xvzPKSHMLsQEmNw&s" data-country="Норвегія" data-flag="🇳🇴" data-desc="Футуристичне житло на самому краю фьорда" data-price="2213" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item item-discount">
+        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070">
+        <div class="discount-badge">-25%</div>
+        <div class="discount-price">
+            <span class="original-price">3500$</span>
+            <span class="new-price">2625$ 🔥</span>
+        </div>
+        <button class="desc-btn" data-id="house7" data-img="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070" data-country="Греція" data-flag="🇬🇷" data-desc="Білосніжна вілла на скелях острова Санторіні" data-price="2625" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://cdn.getyourguide.com/img/location/5d07a2fab15ee.jpeg/150.webp">
+        <button class="desc-btn" data-id="house8" data-img="https://cdn.getyourguide.com/img/location/5d07a2fab15ee.jpeg/150.webp" data-country="Японія" data-flag="🇯🇵" data-desc="Традиційний японський дім у бамбуковому гаю" data-price="4100" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=1974">
+        <button class="desc-btn" data-id="house9" data-img="https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=1974" data-country="Канада" data-flag="🇨🇦" data-desc="Відокремлене лісове сховище з дикого кедра" data-price="2800" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://cdn.village.com.ua/the-village.com.ua/post_image-image/L6x8BEs0J84k9ijZ7akkWA-original_opt.webp">
+        <button class="desc-btn" data-id="house10" data-img="https://cdn.village.com.ua/the-village.com.ua/post_image-image/L6x8BEs0J84k9ijZ7akkWA-original_opt.webp" data-country="Ісландія" data-flag="🇮🇸" data-desc="Сучасний будинок серед магічних лавових полів" data-price="5900" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item item-discount">
+        <img src="https://namori.com.ua/img/rest/2dbc32c27e4675a50ca6e09b48613ee3/1-location-63cbeb825e745.jpg">
+        <div class="discount-badge">-15%</div>
+        <div class="discount-price">
+            <span class="original-price">6400$</span>
+            <span class="new-price">5440$ 🔥</span>
+        </div>
+        <button class="desc-btn" data-id="house11" data-img="https://namori.com.ua/img/rest/2dbc32c27e4675a50ca6e09b48613ee3/1-location-63cbeb825e745.jpg" data-country="Швейцарія" data-flag="🇨🇭" data-desc="Альпійське шале з видом на льодовики" data-price="5440" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=2076">
+        <button class="desc-btn" data-id="house12" data-img="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=2076" data-country="Індонезія" data-flag="🇮🇩" data-desc="Еко-вілла з бамбука в серці джунглів Убуда" data-price="3200" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item item-discount">
+        <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&w=2080">
+        <div class="discount-badge">-20%</div>
+        <div class="discount-price">
+            <span class="original-price">9500$</span>
+            <span class="new-price">7600$ 🔥</span>
+        </div>
+        <button class="desc-btn" data-id="house13" data-img="https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&w=2080" data-country="США" data-flag="🇺🇸" data-desc="Вілла в стилі хай-тек у Беверлі-Хіллз" data-price="7600" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=2070">
+        <button class="desc-btn" data-id="house14" data-img="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=2070" data-country="Іспанія" data-flag="🇪🇸" data-desc="Сонячна гасієнда з власним апельсиновим садом" data-price="4300" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2000">
+        <button class="desc-btn" data-id="house15" data-img="https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2000" data-country="Англія" data-flag="🇬🇧" data-desc="Старовинний котедж у затишному передмісті Лондона" data-price="3800" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://a0.muscache.com/im/pictures/ef9b26b4-8c6c-4308-9edf-881c89310e8f.jpg?im_w=720">
+        <button class="desc-btn" data-id="house16" data-img="https://a0.muscache.com/im/pictures/ef9b26b4-8c6c-4308-9edf-881c89310e8f.jpg?im_w=720" data-country="Бразилія" data-flag="🇧🇷" data-desc="Вілла з панорамним видом на океан у Ріо" data-price="5100" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQoHiK_bED_0JkK4MU5MoTQEFLGJYBJkQosQ&s">
+        <button class="desc-btn" data-id="house17" data-img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQoHiK_bED_0JkK4MU5MoTQEFLGJYBJkQosQ&s" data-country="Китай" data-flag="🇨🇳" data-desc="Дім у традиційному Китайському стилі серед туманних гір" data-price="4400" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1462598207223177221/original/cd3d5b84-892f-41bb-9620-04d4f00ded36.jpeg">
+        <button class="desc-btn" data-id="house18" data-img="https://a0.muscache.com/im/pictures/miso/Hosting-1462598207223177221/original/cd3d5b84-892f-41bb-9620-04d4f00ded36.jpeg" data-country="Єгипет" data-flag="🇪🇬" data-desc="Розкішна резиденція на березі Нілу" data-price="3600" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=2000">
+        <button class="desc-btn" data-id="house19" data-img="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=2000" data-country="Австралія" data-flag="🇦🇺" data-desc="Сучасний будинок на самому пляжі Сіднея" data-price="6200" data-rent="false">Опис</button>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=2000">
+        <button class="desc-btn" data-id="house20" data-img="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=2000" data-country="Мексика" data-flag="🇲🇽" data-desc="Тропічне бунгало з видом на Карибське море" data-price="4900" data-rent="false">Опис</button>
+    </div>
+</div>
+
+<div id="overlay" class="overlay hidden">
+    <div class="overlay-content">
+        <button class="overlay-close">&times;</button>
+        <img class="overlay-img" src="" alt="House">
+        <div class="overlay-info">
+            <h2 class="overlay-country"></h2>
+            <p class="overlay-desc"></p>
+            <p class="overlay-status"></p>
+            <button class="rent-btn"></button>
+        </div>
+    </div>
+</div>
+
+<div id="ball-container"></div>
+<div class="snowflakes" aria-hidden="true"></div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Про нас</h3>
+            <p>Ми пропонуємо найкращі орендні пропозиції будинків світу.</p>
+            <ul class="benefits-list">
+                <li>✓ Найнижчі ціни на ринку</li>
+                <li>✓ Перевірені власники та будинки</li>
+                <li>✓ 24/7 служба підтримки</li>
+                <li>✓ Гарантія задоволеності</li>
+                <li>✓ Безпечні платежі</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Контакти</h3>
+            <p>Email: info@arenduy.ua</p>
+            <p>Телефон: +38 (044) 123-45-67</p>
+        </div>
+        <div class="footer-section">
+            <h3>Слідкуй за нами</h3>
+            <p>Facebook | Instagram | X</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Орендуй Мрію. Всі права захищені.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
